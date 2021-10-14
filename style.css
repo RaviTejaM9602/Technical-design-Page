@@ -1,0 +1,22 @@
+image{
+    justify-content: center;
+    align-items : center;
+  }
+  
+  h1{
+    font-style: bold;
+    font-size: 20px;
+  }
+  
+  div.main-body{
+    display:grid;
+    grid-template-columns:minmax(200px,auto) 1fr;
+    grid-template-areas: "navbar mainContent";
+    grid-gap: 20px;
+  }
+  
+  nav#navbar{
+    grid-area: navbar;
+   
+  }
+  
